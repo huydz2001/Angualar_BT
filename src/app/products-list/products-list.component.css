@@ -1,0 +1,18 @@
+a{
+    text-decoration: none;
+
+}
+
+
+button{
+    border-radius: 3px;
+    background-color: #315ee4;
+    color: white;
+    border: none;
+    padding: .5em 1em;
+}
+
+.product_price{
+    font-weight: 500;
+    font-size: 18px;
+}

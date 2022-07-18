@@ -1,0 +1,9 @@
+.shipping_Cart{
+    background-color: #dddedf;
+    padding: 1em 1.3em;
+    margin-bottom: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+

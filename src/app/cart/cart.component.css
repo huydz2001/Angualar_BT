@@ -1,0 +1,45 @@
+.cart_item{
+    display: grid;
+    background-color: antiquewhite;
+    align-items: center;
+    border-radius: 5px;
+    padding: .3em 1em
+}
+
+
+.item_Name{
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.item_Price{
+    font-weight: 450;
+}
+
+a{
+    text-decoration: none;
+}
+
+.from_Content{
+    display: grid;
+}
+
+input{
+    margin-top: 5px;
+    padding: .5em;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+button{
+    background-color: #1856c3;
+    padding: .6em;
+    border: none;
+    color: aliceblue;
+    border-radius: 4px;
+}
+
+form{
+    margin-top: 1.5em;
+}

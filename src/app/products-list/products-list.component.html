@@ -1,0 +1,18 @@
+<h2 style="color: #cfbbbb ;">Products</h2>
+<div *ngFor = "let product of products">
+    <h3>
+        <a class="link_product" href="" [title]="product.name" [routerLink]="['/products', product.id]">{{product.name}} </a>
+    </h3>
+
+    <p *ngIf = "product.des">
+        {{product.des}}
+    </p>
+
+    <h3 class="product_price">{{product.price | currency}}</h3>
+
+    <button type="button" (click)="Share()">Share</button>
+    <app-product-alert [product]="product" (notify)="onNotify()"></app-product-alert>
+</div>
+
+<router-outlet></router-outlet>
+

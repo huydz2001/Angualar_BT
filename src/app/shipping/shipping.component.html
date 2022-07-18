@@ -1,0 +1,12 @@
+<h3>Shipping Prices</h3>
+<div class="shipping_Cart" *ngFor = "let shipping of shippingCosts | async">
+    <span class="shipping_Type">{{shipping.type}}</span>
+    <span class="shipping_Price">{{shipping.price | currency}}</span>
+</div>
+
+
+
+
+
+
+
